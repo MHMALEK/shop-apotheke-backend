@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  backendapp:
+    container_name: backendapp
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3001'

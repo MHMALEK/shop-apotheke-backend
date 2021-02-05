@@ -1,0 +1,44 @@
+{
+  "name": "shop-apotheke-backend",
+  "version": "1.0.0",
+  "description": "backend code challenge for shop-apotheke",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "mocha": "^8.0.1",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "sinon": "^9.0.2"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test:functional": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHMALEK/shop-apotheke-backend.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MHMALEK/shop-apotheke-backend/issues"
+  },
+  "homepage": "https://github.com/MHMALEK/shop-apotheke-backend#readme"
+}
