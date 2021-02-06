@@ -1,7 +1,6 @@
 import path from "path";
 
 const projectRoot = path.resolve(__dirname, "..");
-console.log("projectRoot projectRoot projectRoot ", projectRoot)
 /**
  * Paths to directories and files of the project.
  */

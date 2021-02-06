@@ -12,7 +12,6 @@ import config from "./config";
 const defaultMethods = ["GET", "POST", "GET", "PATH", "PUT", "DELETE"];
 
 // Read env files from root of project
-console.log("pathTo", pathTo)
 
 const prepareEnvFiles = (config?: any) =>
   require("dotenv").config(config || { path: pathTo.mainProdEnvSrc });
@@ -23,7 +22,6 @@ const setViews = (
   templateEngine?: any
 ) => {
   // view engine setup
-  console.log(pathTo.viewsDir);
   app.set("views", viewsDirectory || pathTo.viewsDir);
   app.set("view engine", templateEngine || config.templateEngine);
 };
