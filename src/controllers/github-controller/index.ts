@@ -5,6 +5,7 @@ import GitHubUrlCreator from './utils/urlCreator';
 import ERROR_MESSAGES from '../../providers/error-provider/error-messages';
 import HttpClient from '../../utils/http-client';
 import { HTTP_METHODS } from '../../utils/http-client/types';
+import { Headers } from 'node-fetch';
 
 const GitHubApiController = async (req: Request, res: Response) => {
   const { language, sort, created, order, per_page, page } = req.query;

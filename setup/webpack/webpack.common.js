@@ -8,7 +8,6 @@ const { resolve } = require('./resolve');
 const isDev = process.env === 'development';
 // rules
 const {typescriptAndJavascriptRules} = require('./rules');
-console.log(pathTo, externals, typescriptAndJavascriptRules);
 
 module.exports = {
   entry: pathTo.entryPointSrc,

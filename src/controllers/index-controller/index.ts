@@ -1,9 +1,7 @@
-import { Request, Response } from "express";
+import { Request, Response } from 'express';
 
 const IndexController = async (req: Request, res: Response) => {
-  res.render("index", {
-    title: "Shop Apotheke",
-  });
+  res.send('success');
 };
 
 export default IndexController;
