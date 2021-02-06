@@ -86,6 +86,6 @@ the other endpoint is the main page and doesn't show anything specefic.
 ```
 ## other 
 
-### Why I used Webpack?
+### Why Webpack?
 
 this project, I used webpack for building server file and transpiling typescript files and used nodemon to refresh after every successfull build. why webpack? It's not really a great option for such project, I can say but I wanted to have some flexibility over tools and also showcase my abilites. but it would be done so much easier with just babel and Typescript.( as I used them this way before). I also used babel because of much more flexibility that it provide me to choose the prefered syntax.
